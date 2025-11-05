@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "autoassignorigins",
+  "version": "1.0.0",
+  "name": "Auto Assign Origins",
+  "description": "Automatically assigns Origins to specific players based on usernames and makes Wardens drop Totems of Undying with 100% chance",
+  "authors": [
+    "Fabric Modder"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Martin20100209/minecraft-auto-assign-origins",
+    "sources": "https://github.com/Martin20100209/minecraft-auto-assign-origins"
+  },
+  "license": "MIT",
+  "icon": "assets/autoassignorigins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.autoassignorigins.AutoAssignOriginsMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "origins": ">=1.10.0"
+  },
+  "suggests": {
+    "extra-origins": "*"
+  }
+}
